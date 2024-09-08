@@ -1,0 +1,210 @@
+[2:44 AM, 9/8/2024] +92 317 2077696: /* Global Styles */
+body {
+    font-family: "Montserrat", Arial, sans-serif;
+    background: radial-gradient(circle, #111, #333);
+    padding: 20px;
+    margin: 0;
+    color: #e0e0e0;
+  }
+  
+  /* Container Styles */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #1b1b1b;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+    border: 3px solid #ff4757;
+  }
+  
+  /* Header Styles */
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #f0f0f0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 900;
+    background: linear-gradient(45deg, #d35400, #e74c3c);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  fieldset {
+    margin-bottom: 25px;
+    padding: 30px;
+    border: 3px solid #ff4757;
+    border-radius: 15px;
+    background-color: #222;
+  }
+  
+  legend {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #f39c12;
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #f39c12;
+  }
+  
+  input {
+    margin-top: 10px;
+    padding: 15px;
+    border: 3px solid #ff4757;
+    border-radius: 10px;
+    width: calc(100% - 30px);
+    box-sizing: border-box;
+    background-color: #333;
+    color: #ffffff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #e67e22;
+    box-shadow: 0 0 10px #e67e22;
+    outline: none;
+  }
+  
+  button {
+    padding: 15px;
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: 900;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #c0392b;
+    transform: scale(1.1);
+  }
+  
+  /* Resume Styles */
+  #resume {
+    margin-top: 40px;
+  }
+  
+  #resume-content {
+    background-color: #444;
+    padding: 40px;
+    border-radius: 20px;
+    border: 3px solid #e67e22;
+    color: #ffffff;
+    box-shadow: 0 0 20px rgba(255, 107, 107, 0.7);
+  }
+  
+  #resume-content h3 {
+    margin-top: 0;
+    color: #e67e22;
+  }
+  
+  #resume-content p, #resume-content ul {
+    margin: 15px 0;
+  }
+  
+  ul {
+    list-style-type: square;
+    padding-left: 30px;
+    color: #ffffff;
+  }
+  
+  /* Share Section Styles */
+  #share-section {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  #shareable-link {
+    display: block;
+    margin: 20px 0;
+    color: #3498db;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: color 0.3s ease;
+  }
+  
+  #shareable-link:hover {
+    color: #f1c40f;
+    text-decoration: underline;
+  }
+  
+  #copy-link-btn, #download-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: #2980b9;
+    color: #ffffff;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    border: 3px solid transparent;
+  }
+  
+  #copy-link-btn:hover, #download-btn:hover {
+    background-color: #1abc9c;
+    box-shadow: 0 0 15px #3498db;
+    border-color: #3498db;
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 768px) {
+    .container {
+      padding: 40px;
+      max-width: 100%;
+    }
+  
+    h1, h2 {
+      font-size: 2rem;
+      margin-bottom: 25px;
+      letter-spacing: 4px;
+    }
+  
+    form, fieldset {
+      padding: 25px;
+    }
+  
+    legend {
+      font-size: 1.3rem;
+    }
+  
+    input, button {
+      font-size: 1rem;
+      padding: 12px;
+    }
+  
+    button {
+      margin-top: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    h1, h2 {
+      font-size: 1.7rem;
+      letter-spacing: 2px;
+    }
+  
+    input, button {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  
+    .container {
+      padding: 30px;
+    }
+  }
